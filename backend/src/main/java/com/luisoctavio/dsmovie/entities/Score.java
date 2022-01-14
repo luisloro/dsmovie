@@ -8,6 +8,7 @@ import javax.persistence.Table;
 @Table(name = "tb_score")
 public class Score {
 	
+	//CONFIG
 	@EmbeddedId
 	private ScorePK id = new ScorePK();
 	
